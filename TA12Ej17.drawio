@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T16:24:24.974Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="ScqQarwoHQJvpZe3WdqR" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T16:42:16.314Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="V38J3rc6N41Ab_aN58v5" version="22.0.4" type="github">
   <diagram name="Página-1" id="PVvVwdM6uXwAvhA5qFd7">
-    <mxGraphModel dx="1430" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1885" dy="1078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,7 +103,7 @@
         <mxCell id="P5Dj7CCU3ey45bR8xJDD-42" value="Profesor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="310" y="780" width="160" height="266" as="geometry" />
         </mxCell>
-        <mxCell id="P5Dj7CCU3ey45bR8xJDD-43" value="DNI" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="P5Dj7CCU3ey45bR8xJDD-42" vertex="1">
+        <mxCell id="P5Dj7CCU3ey45bR8xJDD-43" value="&lt;u&gt;DNI&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="P5Dj7CCU3ey45bR8xJDD-42" vertex="1">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P5Dj7CCU3ey45bR8xJDD-44" value="Nombre" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="P5Dj7CCU3ey45bR8xJDD-42" vertex="1">
@@ -295,7 +295,7 @@
         <mxCell id="P5Dj7CCU3ey45bR8xJDD-190" value="Profesor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1220" y="790" width="160" height="266" as="geometry" />
         </mxCell>
-        <mxCell id="P5Dj7CCU3ey45bR8xJDD-191" value="DNI" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="P5Dj7CCU3ey45bR8xJDD-190" vertex="1">
+        <mxCell id="P5Dj7CCU3ey45bR8xJDD-191" value="&lt;u&gt;DNI&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="P5Dj7CCU3ey45bR8xJDD-190" vertex="1">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P5Dj7CCU3ey45bR8xJDD-192" value="Nombre" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="P5Dj7CCU3ey45bR8xJDD-190" vertex="1">
