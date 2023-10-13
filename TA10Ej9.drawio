@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T17:52:55.519Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="2bsqFwejuaOfR0Dj4xkN" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T17:54:03.723Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="1sIkNSYst2Kl2RE3sEBZ" version="22.0.4" type="github">
   <diagram name="Página-1" id="-awOGB02zNUtzZhkq__5">
     <mxGraphModel dx="2074" dy="2355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="Ct-DKrV5HUXi5heO45Cc-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=none;endFill=0;" parent="1" source="Ct-DKrV5HUXi5heO45Cc-16" target="Ct-DKrV5HUXi5heO45Cc-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ct-DKrV5HUXi5heO45Cc-16" value="Recta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="Ct-DKrV5HUXi5heO45Cc-16" value="Receta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="450" y="-875" width="160" height="176" as="geometry" />
         </mxCell>
         <mxCell id="Ct-DKrV5HUXi5heO45Cc-17" value="&lt;u&gt;id&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="Ct-DKrV5HUXi5heO45Cc-16" vertex="1">
