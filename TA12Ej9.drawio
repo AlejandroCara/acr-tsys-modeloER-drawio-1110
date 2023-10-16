@@ -1,22 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T17:54:03.723Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="1sIkNSYst2Kl2RE3sEBZ" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T17:42:24.663Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="SGw-9U2wlgR3w7mv5Ox-" version="22.0.4" type="device">
   <diagram name="Página-1" id="-awOGB02zNUtzZhkq__5">
-    <mxGraphModel dx="2074" dy="2355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1144" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Ct-DKrV5HUXi5heO45Cc-8" value="Ingrediente" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="70" y="-830" width="160" height="86" as="geometry" />
+          <mxGeometry x="50" y="-845" width="160" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="Ct-DKrV5HUXi5heO45Cc-9" value="Nombre" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="Ct-DKrV5HUXi5heO45Cc-8" vertex="1">
+        <mxCell id="Ct-DKrV5HUXi5heO45Cc-9" value="&lt;u&gt;Nombre&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="Ct-DKrV5HUXi5heO45Cc-8" vertex="1">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ct-DKrV5HUXi5heO45Cc-10" value="Cantidad" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="Ct-DKrV5HUXi5heO45Cc-8" vertex="1">
           <mxGeometry y="56" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="tWWoj-3zP3Y7B2qUnDCA-2" value="Unidad" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="Ct-DKrV5HUXi5heO45Cc-8">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="Ct-DKrV5HUXi5heO45Cc-12" value="Paso" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="860" y="-845" width="160" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="Ct-DKrV5HUXi5heO45Cc-13" value="id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="Ct-DKrV5HUXi5heO45Cc-12" vertex="1">
+        <mxCell id="Ct-DKrV5HUXi5heO45Cc-13" value="&lt;u&gt;id&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="Ct-DKrV5HUXi5heO45Cc-12" vertex="1">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ct-DKrV5HUXi5heO45Cc-14" value="num_paso" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="Ct-DKrV5HUXi5heO45Cc-12" vertex="1">
@@ -49,13 +52,13 @@
         <mxCell id="Ct-DKrV5HUXi5heO45Cc-22" value="Etiqueta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="450" y="-1090" width="160" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="Ct-DKrV5HUXi5heO45Cc-23" value="Nombre" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="Ct-DKrV5HUXi5heO45Cc-22" vertex="1">
+        <mxCell id="Ct-DKrV5HUXi5heO45Cc-23" value="&lt;u&gt;Nombre&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="Ct-DKrV5HUXi5heO45Cc-22" vertex="1">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ct-DKrV5HUXi5heO45Cc-26" value="Utensilio" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="450" y="-510" width="160" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="Ct-DKrV5HUXi5heO45Cc-27" value="Nombre" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="Ct-DKrV5HUXi5heO45Cc-26" vertex="1">
+        <mxCell id="Ct-DKrV5HUXi5heO45Cc-27" value="&lt;u&gt;Nombre&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="Ct-DKrV5HUXi5heO45Cc-26" vertex="1">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ct-DKrV5HUXi5heO45Cc-34" value="Tipo" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="Ct-DKrV5HUXi5heO45Cc-26" vertex="1">
@@ -93,6 +96,9 @@
         </mxCell>
         <mxCell id="Ct-DKrV5HUXi5heO45Cc-33" value="Tiene" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="470" y="-990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tWWoj-3zP3Y7B2qUnDCA-1" value="Etiqueta(nombre_pk)&lt;br&gt;Receta(id_pk, nombre_plato, dificultad, duracion_media, cantidad_personas)&lt;br&gt;Paso(id_pk, num_paso, descripcion, id_receta_fk)&lt;br&gt;Ingrediente(nombre_pk, cantidad, unidad)&lt;br&gt;Utensilio(nombre_pk, tipo)&lt;br&gt;Etiqueta_Receta(nombre_pk_fk, id_receta_pk_fk)&lt;br&gt;ingrediente_receta(id_receta_pk_fk, nombre_ingrediente_pk_fk)&lt;br&gt;Receta_Utensilio(id_receta:pk_fk, nombre_pk_fk)&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-1034" width="730" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
