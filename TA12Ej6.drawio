@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T16:55:47.089Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="ukTQt_H8L8bqWSFwPMmR" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T17:03:05.623Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="npEVx4kQTyVCLMgkxxVG" version="22.0.4" type="device">
   <diagram name="Página-1" id="v7WLSw8gYZnbD9MZwK5k">
-    <mxGraphModel dx="1430" dy="1987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="995" dy="1661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="D-2QHdXYZO2g3pIEzoJR-9" value="CD" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="460" y="500" width="160" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="D-2QHdXYZO2g3pIEzoJR-10" value="duracion" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="D-2QHdXYZO2g3pIEzoJR-9" vertex="1">
+        <mxCell id="D-2QHdXYZO2g3pIEzoJR-10" value="num_canciones" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="D-2QHdXYZO2g3pIEzoJR-9" vertex="1">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="D-2QHdXYZO2g3pIEzoJR-13" value="Socio" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
@@ -37,7 +37,7 @@
         <mxCell id="D-2QHdXYZO2g3pIEzoJR-17" value="Pelicula" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="240" y="500" width="160" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="D-2QHdXYZO2g3pIEzoJR-18" value="num_canciones" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="D-2QHdXYZO2g3pIEzoJR-17" vertex="1">
+        <mxCell id="D-2QHdXYZO2g3pIEzoJR-18" value="duracion" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="D-2QHdXYZO2g3pIEzoJR-17" vertex="1">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="D-2QHdXYZO2g3pIEzoJR-21" value="Articulo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
@@ -104,7 +104,7 @@
         <mxCell id="D-2QHdXYZO2g3pIEzoJR-38" value="Telefono" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1065" y="144" width="160" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="D-2QHdXYZO2g3pIEzoJR-39" value="num_telefono" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="D-2QHdXYZO2g3pIEzoJR-38" vertex="1">
+        <mxCell id="D-2QHdXYZO2g3pIEzoJR-39" value="&lt;u&gt;num_telefono&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="D-2QHdXYZO2g3pIEzoJR-38" vertex="1">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="D-2QHdXYZO2g3pIEzoJR-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;" parent="1" source="D-2QHdXYZO2g3pIEzoJR-43" target="D-2QHdXYZO2g3pIEzoJR-21" edge="1">
@@ -169,6 +169,9 @@
         </mxCell>
         <mxCell id="3_6yHcCFIHx05l5qt2Wh-6" value="Crea" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="260" y="-120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1el4Kz3fJ_tfi_sxDJ3L-1" value="Autor(id_autor_pk, nombre)&lt;br&gt;Arituculo(id_pk, nombre, resumen, año, pais, deterioro, comentario_deterioro)&lt;br&gt;Socio(codigo_pk, dni, nombre, apellidos, direccion)&lt;br&gt;Telefono(num_telefono_pk, codigo_fk)&lt;br&gt;Libro(id_pk_fk, num_pagina)&lt;br&gt;Pelicula(id_pk_fk, duracion)&lt;br&gt;Cd(id_pk_fk, num_canciones)&lt;br&gt;autor_articulo(id_pk_fk, id_autor_pk_fk)&lt;br&gt;articulo_socio(codigo_pk_fk, id_pk_fk, fecha_inicio, fecha_limite, fecha_entrega)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="340" width="590" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
