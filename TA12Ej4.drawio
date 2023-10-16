@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T17:00:45.464Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="HGjRBIviGyTuKJMf7Sgu" version="22.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-16T16:35:21.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="0UEaKX1f-PKKzqVPSdRN" version="22.0.4" type="github" pages="2">
   <diagram id="xodAkxZxzh1Cj0b88DQv" name="Página-1">
-    <mxGraphModel dx="1195" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1296" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
         <mxCell id="SI2Jbk0fxi3ZAPeUlPYS-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;endFill=0;" parent="1" source="SI2Jbk0fxi3ZAPeUlPYS-19" target="SI2Jbk0fxi3ZAPeUlPYS-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nCyGMoYEvmogcTahltSp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;endFill=0;" edge="1" parent="1" source="SI2Jbk0fxi3ZAPeUlPYS-19" target="nCyGMoYEvmogcTahltSp-1">
+        <mxCell id="nCyGMoYEvmogcTahltSp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;endFill=0;" parent="1" source="SI2Jbk0fxi3ZAPeUlPYS-19" target="nCyGMoYEvmogcTahltSp-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SI2Jbk0fxi3ZAPeUlPYS-19" value="Participa" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
@@ -70,23 +70,26 @@
             <mxPoint x="390" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nCyGMoYEvmogcTahltSp-1" value="Bando" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nCyGMoYEvmogcTahltSp-1" value="Bando" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="240" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="nCyGMoYEvmogcTahltSp-2" value="nombre" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="nCyGMoYEvmogcTahltSp-1">
+        <mxCell id="nCyGMoYEvmogcTahltSp-2" value="&lt;u&gt;nombre&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="nCyGMoYEvmogcTahltSp-1" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nCyGMoYEvmogcTahltSp-3" value="isGanador" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="nCyGMoYEvmogcTahltSp-1">
+        <mxCell id="nCyGMoYEvmogcTahltSp-3" value="isGanador" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="nCyGMoYEvmogcTahltSp-1" vertex="1">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nCyGMoYEvmogcTahltSp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;endFill=0;" edge="1" parent="1" source="nCyGMoYEvmogcTahltSp-6" target="nCyGMoYEvmogcTahltSp-1">
+        <mxCell id="nCyGMoYEvmogcTahltSp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;endFill=0;" parent="1" source="nCyGMoYEvmogcTahltSp-6" target="nCyGMoYEvmogcTahltSp-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nCyGMoYEvmogcTahltSp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;endFill=0;" edge="1" parent="1" source="nCyGMoYEvmogcTahltSp-6" target="SI2Jbk0fxi3ZAPeUlPYS-1">
+        <mxCell id="nCyGMoYEvmogcTahltSp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;endFill=0;" parent="1" source="nCyGMoYEvmogcTahltSp-6" target="SI2Jbk0fxi3ZAPeUlPYS-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nCyGMoYEvmogcTahltSp-6" value="Participa" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="nCyGMoYEvmogcTahltSp-6" value="Participa" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="550" y="255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eP0rIeFs1MtCe4hIySaU-1" value="&lt;div align=&quot;left&quot;&gt;Guerra(Nombre_pk, año_inicio, año_final)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Bando(Nombre_pk, isGanador)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Guerra_Bando(Nombre_pk_fk_bando, Nombre_pk_fk_guerra)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Pais(Nombre_pk, años_independiente)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Pais_Bando(Nombre_pk_fk_pais, Nombre_pk_fk_Bando, fecha_inicio, fecha_fin)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Independencia(fecha_inicio_pk, fecha_inicio_pk)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Pais_Independencia(Nombre_pk_fk_pais, fecha_inicio_pk_fk, fecha_fin_pk_fk)&lt;br&gt; &lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="410" width="450" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
