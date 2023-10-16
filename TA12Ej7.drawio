@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T16:54:36.994Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="8S4UfgcniRh3XP9v-sDy" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T17:09:29.027Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="pWOqzIHV5OOlgeg1PEkL" version="22.0.4" type="github">
   <diagram name="Página-1" id="O0059kMxBy4AlQLn8lPF">
-    <mxGraphModel dx="1434" dy="1937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1383" dy="1960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="bmKNvkHEY8R20OQs5g9O-3" value="seguridad_social" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="bmKNvkHEY8R20OQs5g9O-1" vertex="1">
           <mxGeometry y="146" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bmKNvkHEY8R20OQs5g9O-23" value="dirección" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="bmKNvkHEY8R20OQs5g9O-1" vertex="1">
+        <mxCell id="bmKNvkHEY8R20OQs5g9O-23" value="direccion" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="bmKNvkHEY8R20OQs5g9O-1" vertex="1">
           <mxGeometry y="176" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bmKNvkHEY8R20OQs5g9O-24" value="telefono" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="bmKNvkHEY8R20OQs5g9O-1" vertex="1">
@@ -100,14 +100,17 @@
         <mxCell id="bmKNvkHEY8R20OQs5g9O-19" value="salario" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="bmKNvkHEY8R20OQs5g9O-17" vertex="1">
           <mxGeometry y="86" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7werQfA85I9A53arLepe-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmandOne;endFill=0;" edge="1" parent="1" source="7werQfA85I9A53arLepe-1" target="bmKNvkHEY8R20OQs5g9O-9">
+        <mxCell id="7werQfA85I9A53arLepe-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmandOne;endFill=0;" parent="1" source="7werQfA85I9A53arLepe-1" target="bmKNvkHEY8R20OQs5g9O-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7werQfA85I9A53arLepe-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="1" source="7werQfA85I9A53arLepe-1" target="bmKNvkHEY8R20OQs5g9O-17">
+        <mxCell id="7werQfA85I9A53arLepe-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;" parent="1" source="7werQfA85I9A53arLepe-1" target="bmKNvkHEY8R20OQs5g9O-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7werQfA85I9A53arLepe-1" value="Genera" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="7werQfA85I9A53arLepe-1" value="Genera" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="649" y="-1057" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uvADp9A4pC40IDfxbngJ-1" value="&lt;div align=&quot;left&quot;&gt;Contrato(Id_pk, categoria, fecha_inicio, fecha_final, num_trabajador_fk)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Nomina(id_pk, fecha, salario, id_fk_contrato)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Empleado(num_trabajador_pk, nombre, apellidos, dni, seguridad_social, direccion, telefono, codigo_fk_dept, num_responsable_fk)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Departamento(codigo_pk, nombre, coordinador)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="-930" width="760" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
