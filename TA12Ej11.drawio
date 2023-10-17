@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T17:50:16.491Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="HABQQHmJIcmu-qNWM3jF" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T17:02:41.475Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Qv8cYDAJkoW1MY4SnMER" version="22.0.4" type="github">
   <diagram name="Página-1" id="msR2nBrleSWa6xu2xoGH">
-    <mxGraphModel dx="2165" dy="1934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="1937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,10 +47,13 @@
           <mxGeometry y="86" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7VkVirSZ5WOiLg93lLZf-21" value="Localidad" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="480" y="-530" width="160" height="56" as="geometry" />
+          <mxGeometry x="480" y="-545" width="160" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="7VkVirSZ5WOiLg93lLZf-22" value="&lt;u&gt;nombre&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="7VkVirSZ5WOiLg93lLZf-21" vertex="1">
+        <mxCell id="7VkVirSZ5WOiLg93lLZf-22" value="&lt;u&gt;id&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="7VkVirSZ5WOiLg93lLZf-21" vertex="1">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3VGVRFMRFs9TxI8zLVsD-3" value="nombre" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="7VkVirSZ5WOiLg93lLZf-21">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7VkVirSZ5WOiLg93lLZf-25" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="90" y="-100" width="60" height="80" as="geometry" />
@@ -120,7 +123,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="j_QTbrRGd8eZM41wn22n-1" value="&lt;div align=&quot;left&quot;&gt;Pais(nombre_pk, extension, poblacion)&lt;br&gt;&lt;/div&gt;&lt;div&gt;Localidad(nombre_pk, nombre_fk_pais)&lt;/div&gt;&lt;div&gt;Accidentes_geo(nombre_pk, pos_horizontal, pos_vertical)&lt;/div&gt;&lt;div&gt;Pais_Accidente(nombre_pk_fk_pais, nombre_pk_fk_accidente)&lt;/div&gt;&lt;div&gt;Montañas(nombre_pk_fk, altura)&lt;/div&gt;&lt;div&gt;Lagos(nombre_pk_fk, extension)&lt;/div&gt;&lt;div&gt;Rios(nombre_pk_fk, longitud)&lt;/div&gt;&lt;div&gt;Localidad_Rios(nombre_pk_fk_localidad, nombre_pk_fk_rio)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="j_QTbrRGd8eZM41wn22n-1" value="&lt;div align=&quot;left&quot;&gt;Pais(nombre_pk, extension, poblacion)&lt;br&gt;&lt;/div&gt;&lt;div&gt;Localidad(nombre_pk, nombre_fk_pais)&lt;/div&gt;&lt;div&gt;Accidentes_geo(nombre_pk, pos_horizontal, pos_vertical)&lt;/div&gt;&lt;div&gt;Pais_Accidente(nombre_pk_fk_pais, nombre_pk_fk_accidente)&lt;/div&gt;&lt;div&gt;Montañas(nombre_pk_fk, altura)&lt;/div&gt;&lt;div&gt;Lagos(nombre_pk_fk, extension)&lt;/div&gt;&lt;div&gt;Rios(nombre_pk_fk, longitud)&lt;/div&gt;&lt;div&gt;Localidad_Rios(nombre_pk_fk_localidad, nombre_pk_fk_rio)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-413" y="-160" width="460" height="140" as="geometry" />
         </mxCell>
       </root>
