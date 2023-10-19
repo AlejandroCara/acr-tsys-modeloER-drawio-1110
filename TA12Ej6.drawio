@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T17:03:05.623Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="npEVx4kQTyVCLMgkxxVG" version="22.0.4" type="device">
+<mxfile host="app.diagrams.net" modified="2023-10-19T16:21:05.166Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="_J0NTKOn6KSROXIxakDw" version="22.0.5" type="github">
   <diagram name="Página-1" id="v7WLSw8gYZnbD9MZwK5k">
-    <mxGraphModel dx="995" dy="1661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2183" dy="2417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -170,7 +170,7 @@
         <mxCell id="3_6yHcCFIHx05l5qt2Wh-6" value="Crea" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="260" y="-120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1el4Kz3fJ_tfi_sxDJ3L-1" value="Autor(id_autor_pk, nombre)&lt;br&gt;Arituculo(id_pk, nombre, resumen, año, pais, deterioro, comentario_deterioro)&lt;br&gt;Socio(codigo_pk, dni, nombre, apellidos, direccion)&lt;br&gt;Telefono(num_telefono_pk, codigo_fk)&lt;br&gt;Libro(id_pk_fk, num_pagina)&lt;br&gt;Pelicula(id_pk_fk, duracion)&lt;br&gt;Cd(id_pk_fk, num_canciones)&lt;br&gt;autor_articulo(id_pk_fk, id_autor_pk_fk)&lt;br&gt;articulo_socio(codigo_pk_fk, id_pk_fk, fecha_inicio, fecha_limite, fecha_entrega)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1el4Kz3fJ_tfi_sxDJ3L-1" value="Autor(id_autor_pk, nombre)&lt;br&gt;Articulo(id_pk, nombre, resumen, año, pais, deterioro, comentario_deterioro)&lt;br&gt;Socio(codigo_pk, dni, nombre, apellidos, direccion)&lt;br&gt;Telefono(num_telefono_pk, codigo_fk)&lt;br&gt;Libro(id_pk_fk, num_pagina)&lt;br&gt;Pelicula(id_pk_fk, duracion)&lt;br&gt;Cd(id_pk_fk, num_canciones)&lt;br&gt;autor_articulo(id_pk_fk, id_autor_pk_fk)&lt;br&gt;articulo_socio(codigo_pk_fk, id_pk_fk, fecha_inicio, fecha_limite, fecha_entrega)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="910" y="340" width="590" height="230" as="geometry" />
         </mxCell>
       </root>
