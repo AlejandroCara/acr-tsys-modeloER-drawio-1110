@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T16:50:26.850Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Ux4CdbyCGpm-8j4156s6" version="22.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-19T17:29:35.077Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="HpsGZSuXPHpS7pCu64DT" version="22.0.5" type="github">
   <diagram name="Página-1" id="PVvVwdM6uXwAvhA5qFd7">
-    <mxGraphModel dx="1687" dy="941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -395,7 +395,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5mBQ_JaC6uCVLdP5vAfW-1" value="&lt;div align=&quot;left&quot;&gt;Aula(Numero_pk, Nombre, Superficie)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Asignatura(Cod_interno_pk, Nombre, Cod_Europeo, Cod_interno_fk)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Horario(Hora_pk, DD_MM_YY_pk, Dia_de_la_semana)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Ocupa(Hora_pk_fk, DD_MM_YY_pk_fk,Numero_pk_fk,Cod_interno_pk_fk)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Profesor(DNI_pk, Nombre, Direccion, Telefono, Correo, N_SS, Cod_interno, Antigüedad_tutor)&lt;br&gt;&lt;/div&gt;&lt;div&gt;Profesor_Asignatura(codigo_interno_profesor_pk_fk, Cod_interno_pk_fk, Antigüedad)&lt;/div&gt;&lt;div&gt;Ciclo(Cod_interno_pk, Nombre, Tipo, codigo_interno_profesor_fk)&lt;/div&gt;&lt;div&gt;Ciclo_Asig_Profe(Cod_Asig_pk_fk, Cod_Ciclo_pk_fk, codigo_interno_profesor_pk_fk, fecha_inicio, fecha_fin)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="560" width="729" height="150" as="geometry" />
+          <mxGeometry x="1220" y="530" width="729" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
