@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T17:24:28.321Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="J0NLRkeeW_PK7gjVpPre" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-19T18:27:07.150Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="d6-BSJq7n2PHcLWewv89" version="22.0.5" type="github">
   <diagram name="Página-1" id="isV0oZyiH_nVLni_kfK7">
-    <mxGraphModel dx="2261" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2210" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -161,7 +161,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3J1bIUCauJIn3KedwMdZ-1" value="Empleado(dni_pk, nombre, apellido, num_ss, tel_fijo, tel_movil)&lt;br&gt;Pinche(dni_pk_fk, fecha_nacimiento, dni_cocinero_fk)&lt;br&gt;Cocinero(dni_pk_fk, años_servicio)&lt;br&gt;Ingrediente(nombre_pk)&lt;br&gt;Estanteria(letra_pk, tamaño_pk, nombre_fk, num_fk)&lt;br&gt;Plato(nombre_pk, precion, tipo)&lt;br&gt;Almacen(nombre_pk, num_pk, descripcion)&lt;br&gt;ingrediente_plato(nombre_ingrediente_pk_fk, nombre_plato_pk_fk)&lt;br&gt;ingrediente_estanteria(nombre_ingrediente_pk_fk, letra_pk_fk, tamaño_pk_fk)&lt;br&gt;plato_cocinero(nombre_plato_pk_fk, dni_pk_fk)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="3J1bIUCauJIn3KedwMdZ-1" value="Empleado(dni_pk, nombre, apellido, num_ss, tel_fijo, tel_movil)&lt;br&gt;&lt;div&gt;Cocinero(dni_pk_fk, años_servicio)&lt;/div&gt;&lt;div&gt;Pinche(dni_pk_fk, fecha_nacimiento, dni_cocinero_fk)&lt;/div&gt;&lt;div&gt;Ingrediente(nombre_pk)&lt;/div&gt;&lt;div&gt;Almacen(nombre_pk, num_pk, descripcion)&lt;/div&gt;Estanteria(letra_pk, tamaño_pk, nombre_fk, num_fk)&lt;br&gt;Plato(nombre_pk, precio, tipo)&lt;br&gt;ingrediente_plato(nombre_ingrediente_pk_fk, nombre_plato_pk_fk)&lt;br&gt;ingrediente_estanteria(nombre_ingrediente_pk_fk, letra_pk_fk, tamaño_pk_fk)&lt;br&gt;plato_cocinero(nombre_plato_pk_fk, dni_pk_fk)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="750" y="410" width="790" height="207" as="geometry" />
         </mxCell>
       </root>
