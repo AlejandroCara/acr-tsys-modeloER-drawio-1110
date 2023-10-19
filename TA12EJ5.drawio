@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T16:55:02.376Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="_Gi5Dc6fZoz6Em-ZSE6i" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-19T15:19:38.681Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="bmhY86mZ-Ub0DEOYMP3Y" version="22.0.5" type="github">
   <diagram name="Página-1" id="MgPHbfp6EiS18CAXmIQC">
-    <mxGraphModel dx="1434" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="883" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -106,8 +106,8 @@
             <mxPoint x="500" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9g_RNMxOMtmnIyJCmTWr-1" value="Tipo(Siglas_pk, Descripcion)&lt;br&gt;Pieza(Siglastipo_pk_fk, Numero_pk, Precio, Siglastipo_fk, Numero_fk)&lt;br&gt;Pieza_Estanteria(Siglastipo_tipo_pk_fk, Numero_pk_fk, ID3_pk_fk, cantidad)&lt;br&gt;Almacen(Numero_pk, Descripcion, Direccion)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Estanteria(ID3_pk, Nombre, Numero_almacen_fk)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="800" y="266" width="1190" height="204" as="geometry" />
+        <mxCell id="9g_RNMxOMtmnIyJCmTWr-1" value="&lt;div&gt;Tipo(Siglas_pk, Descripcion)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Almacen(Numero_pk, Descripcion, Direccion)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Pieza(Siglastipo_pk_fk, Numero_pk, Precio)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Pieza_Pieza(Siglastipo_pk_fk, Numero_pk_fk, Siglastipo_pk_fk, Numero_pk_fk)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Estanteria(ID3_pk, Nombre, Numero_almacen_fk)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Pieza_Estanteria(Siglastipo_tipo_pk_fk, Numeropieza_pk_fk, ID3_pk_fk, cantidad)&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="800" y="267" width="1190" height="204" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
