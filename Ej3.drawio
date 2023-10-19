@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T10:36:20.055Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="YIV1yulrPALdzih4Z5oJ" version="22.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-19T14:28:40.184Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="yDXD97_fTFUxVCweNuQp" version="22.0.5" type="github">
   <diagram name="Página-1" id="RMdyLdgFyxFOfN8cl9F2">
-    <mxGraphModel dx="1434" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -229,6 +229,12 @@
         </mxCell>
         <mxCell id="YGxaeuAN8_EADN_OlUPX-68" value="Es Capital" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="460" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YGxaeuAN8_EADN_OlUPX-72" value="Comunidad(Nombre_pk, poblacion, superficie)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Provincia(codigo_postal_pk, nombre, Poblacion, supercifie, nombre_comunidad_autonoma_fk)&lt;br&gt;Localidad(nombre_pk, poblacion, codigoposta_fk, nombre_comunidad_autonoma_fk, codigo_provincia_capital_fk)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1280" width="790" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YGxaeuAN8_EADN_OlUPX-90" value="1:1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="850" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
