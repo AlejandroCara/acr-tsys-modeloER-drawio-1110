@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T16:35:21.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="0UEaKX1f-PKKzqVPSdRN" version="22.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-19T10:36:39.069Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="TlGjZKPWwc6BKpyFt4q9" version="22.0.5" type="github" pages="2">
   <diagram id="xodAkxZxzh1Cj0b88DQv" name="Página-1">
-    <mxGraphModel dx="1296" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1257" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,7 +88,7 @@
         <mxCell id="nCyGMoYEvmogcTahltSp-6" value="Participa" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="550" y="255" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eP0rIeFs1MtCe4hIySaU-1" value="&lt;div align=&quot;left&quot;&gt;Guerra(Nombre_pk, año_inicio, año_final)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Bando(Nombre_pk, isGanador)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Guerra_Bando(Nombre_pk_fk_bando, Nombre_pk_fk_guerra)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Pais(Nombre_pk, años_independiente)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Pais_Bando(Nombre_pk_fk_pais, Nombre_pk_fk_Bando, fecha_inicio, fecha_fin)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Independencia(fecha_inicio_pk, fecha_inicio_pk)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Pais_Independencia(Nombre_pk_fk_pais, fecha_inicio_pk_fk, fecha_fin_pk_fk)&lt;br&gt; &lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="eP0rIeFs1MtCe4hIySaU-1" value="&lt;div align=&quot;left&quot;&gt;Guerra(Nombre_pk, año_inicio, año_final)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Bando(Nombre_pk, isGanador)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Guerra_Bando(Nombre_pk_fk_bando, Nombre_pk_fk_guerra)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Pais(Nombre_pk, años_independiente)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Pais_Bando(Nombre_pk_fk_pais, Nombre_pk_fk_Bando, fecha_inicio, fecha_fin)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Independencia(fecha_inicio_pk, fecha_fin_pk)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Pais_Independencia(Nombre_pk_fk_pais, fecha_inicio_pk_fk, fecha_fin_pk_fk)&lt;br&gt; &lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="700" y="410" width="450" height="130" as="geometry" />
         </mxCell>
       </root>
