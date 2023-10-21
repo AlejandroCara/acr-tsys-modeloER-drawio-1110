@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T17:55:17.087Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="fvEXdebJjIRtyUsMKETL" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-21T19:14:39.980Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="3__TBLT7h-uS5cKCtRSq" version="22.0.6" type="device">
   <diagram name="Página-1" id="JHmkv3kckkZ9OcQ7Dxxi">
-    <mxGraphModel dx="1434" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -82,7 +82,7 @@
         <mxCell id="evYnOkPTChKPRlf0-Ylp-33" value="nombre" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="evYnOkPTChKPRlf0-Ylp-32" vertex="1">
           <mxGeometry y="56" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rj732b2tzsVInBEP-C0z-1" value="Empresa(cod_interno_pk, CIF, nombre, direccion, telefono)&lt;br&gt;Proyecto(id_pk, fecha_ïnicio, fecha_final, fecha_prevista, cod_interno_empresa_fk)&lt;br&gt;Trabajador(cod_trabajador_pk, nombre, dni, apellido)&lt;br&gt;Profesion(cod_profesion_pk, nombre)&lt;br&gt;Proy_Profesion_Trabajador(id_trabajador_pk_fk, cod_trabajador_pk_fk, cod_profession_pk_fk)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rj732b2tzsVInBEP-C0z-1" value="Empresa(cod_interno_pk, CIF, nombre, direccion, telefono)&lt;br&gt;Proyecto(id_pk, fecha_ïnicio, fecha_final, fecha_prevista, cod_interno_empresa_fk)&lt;br&gt;Trabajador(cod_trabajador_pk, nombre, dni, apellido)&lt;br&gt;Profesion(cod_profesion_pk, nombre)&lt;br&gt;Proy_Profesion_Trabajador(id_proyecto_pk_fk, cod_trabajador_pk_fk, cod_profession_pk_fk)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="520" width="840" height="280" as="geometry" />
         </mxCell>
       </root>
