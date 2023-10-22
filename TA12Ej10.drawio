@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T17:04:17.856Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="oIXouzzVvUrnMDtArEgl" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-22T18:17:34.205Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="97BqXmvhbSbtQy5HK0n8" version="22.0.6" type="github">
   <diagram name="Página-1" id="9HoXWBTaTRmEVaXz8rzm">
     <mxGraphModel dx="2363" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -115,7 +115,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lz6s-qlh3UBMmP7u7mVH-1" value="Equipo (idEquipo_pk, nombre, escudo)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Persona (dni_pk&lt;u&gt;,&lt;/u&gt; nombre, apellidos)&lt;br&gt;Jugador (dni_pk_fk, alineacion, numero, idEquipo_fk)&lt;br&gt;Entrenador (dni_pk_fk, Rango, isOjeador, idEquipo_fk)&lt;br&gt;&lt;div&gt;Liga(id_liga_pk, nombre, temporada)&lt;/div&gt;&lt;div&gt;Partido(id_partido_pk, fecha, resultado,id_liga_fk)&lt;/div&gt;&lt;div&gt;equipo_partido(id_equipo_pk_fk, id_partido_pk_fk)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="lz6s-qlh3UBMmP7u7mVH-1" value="Equipo (idEquipo_pk, nombre, escudo)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Persona (dni_pk&lt;u&gt;,&lt;/u&gt; nombre, apellidos)&lt;br&gt;Jugador (dni_pk_fk, alineacion, numero, idEquipo_fk)&lt;br&gt;Entrenador (dni_pk_fk, Rango, isOjeador, idEquipo_fk)&lt;br&gt;&lt;div&gt;Liga(id_liga_pk, nombre, temporada)&lt;/div&gt;&lt;div&gt;Partido(id_partido_pk, fecha, resultado,id_liga_fk)&lt;/div&gt;&lt;div&gt;equipo_partido(id_equipo_pk_fk, id_partido_pk_fk, is_visitante)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="480" y="668" width="360" height="240" as="geometry" />
         </mxCell>
         <mxCell id="lz6s-qlh3UBMmP7u7mVH-3" value="Partido" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
@@ -131,6 +131,9 @@
           <mxGeometry y="86" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lz6s-qlh3UBMmP7u7mVH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;" parent="1" source="lz6s-qlh3UBMmP7u7mVH-7" target="lz6s-qlh3UBMmP7u7mVH-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K90a3K23CBuNunpk62g6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="lz6s-qlh3UBMmP7u7mVH-7" target="K90a3K23CBuNunpk62g6-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lz6s-qlh3UBMmP7u7mVH-7" value="Juega" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
@@ -156,6 +159,9 @@
         </mxCell>
         <mxCell id="lz6s-qlh3UBMmP7u7mVH-11" value="Juega" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="70" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K90a3K23CBuNunpk62g6-1" value="is_visitante" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="150" y="710" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
