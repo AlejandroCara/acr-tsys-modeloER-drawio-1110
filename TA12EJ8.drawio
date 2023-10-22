@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T17:36:55.618Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="519yrZbrg36kctxhqFL7" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-22T17:48:08.589Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="elRKakFp5papEviaHO7Z" version="22.0.6" type="github">
   <diagram name="Página-1" id="l6IsVmBgS7k2f2XV-Fps">
-    <mxGraphModel dx="1247" dy="1866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,7 +94,7 @@
         <mxCell id="sCebcdsK1RZy2Htt7rPU-36" value="&lt;u&gt;id&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="sCebcdsK1RZy2Htt7rPU-35" vertex="1">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CdaPfv8RH0Qr_2A9suBW-2" value="Num_asiento" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="sCebcdsK1RZy2Htt7rPU-35">
+        <mxCell id="CdaPfv8RH0Qr_2A9suBW-2" value="Num_asiento" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="sCebcdsK1RZy2Htt7rPU-35" vertex="1">
           <mxGeometry y="56" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sCebcdsK1RZy2Htt7rPU-39" value="Avión" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
@@ -134,22 +134,22 @@
         <mxCell id="sCebcdsK1RZy2Htt7rPU-47" value="Asigna" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="210" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CdaPfv8RH0Qr_2A9suBW-4" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Cliente(DNI_pk, nombre, apellidos, direccion, telefono, tarjeta_credito)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Tarjetaembarque(id_pk, num_asiento, DNI_fk)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;Asiento(Fila_pk, Columna_pk, Planta_pk, Numero)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;Vuelo(Codigo_pk, fecha_salida, fecha_llegada, hora_salida, hora_llegada, aeropuerto_salida, aeropuerto_llegada)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;Aeropuerto(Codigo_pk, Nombre, Pais, Localidad)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;Avion(Codigo_pk, Num_plazas)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;Cliente_Vuelo(DNI_pk_fk, Codigo_pk_fk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;Tarjeta_Embarque(id_tarjeta_&lt;/span&gt;pk_fk, Fila_pk_fk, Columna_pk_fk, Planta_pk_fk, fecha)&lt;/div&gt;&lt;div&gt;Vuelo_Aeropuerto(Codigo_vuelo_pk_fk, Codigo_aeropuerto_pk_fk)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CdaPfv8RH0Qr_2A9suBW-4" value="Cliente (dni_pk, nombre, apellidos, dirección, telefono, tarjeta_credito)&lt;br&gt;Tarjeta_Embarque(id_pk, num_asiento, dni_cliente_fk)&lt;br&gt;Asiento(fila_pk, columna_pk, planta_pk, numero)&lt;br&gt;Tarjeta_embarque_asiento(id_tarjeta_pk_fk, fila_pk_fk, columna_pk_fk, planta_pk_fk, facha_pk_fk)&lt;br&gt;Aeropuerto(codigo_pk, nombre, pais, localidad)&lt;br&gt;Avion(codigo_pk, num_plazas)&lt;br&gt;Vuelo(codigo_pk, fecha_salida, fecha_llegada, hora_salida, hora_llegada, codigo_avion_fk)&lt;br&gt;Vuelo_aeropuerto(codigo_vuelo_pk_fk, codigo_aeropuerto_salida_pk_fk, codigo_aeropuerto_llegada_pk_fk)&lt;br&gt;Cliente_vuelo(dni_cliente_pk_fk, codigo_vuelo_pk_fk)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="380" y="-100" width="1920" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="CdaPfv8RH0Qr_2A9suBW-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CdaPfv8RH0Qr_2A9suBW-14" target="sCebcdsK1RZy2Htt7rPU-47">
+        <mxCell id="CdaPfv8RH0Qr_2A9suBW-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CdaPfv8RH0Qr_2A9suBW-14" target="sCebcdsK1RZy2Htt7rPU-47" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="600" as="sourcePoint" />
             <mxPoint x="120" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CdaPfv8RH0Qr_2A9suBW-14" value="Fecha" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="CdaPfv8RH0Qr_2A9suBW-14" value="Fecha" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="110" y="574" width="60" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="CdaPfv8RH0Qr_2A9suBW-15" value="Realiza" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="CdaPfv8RH0Qr_2A9suBW-15" value="Realiza" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="610" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CdaPfv8RH0Qr_2A9suBW-16" value="Tiene" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="CdaPfv8RH0Qr_2A9suBW-16" value="Tiene" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="810" y="200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
